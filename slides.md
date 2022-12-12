@@ -18,6 +18,7 @@ drawings:
   persist: false
 # download
 download: true
+exportFilename: mock
 # use UnoCSS
 css: unocss
 ---
@@ -316,7 +317,7 @@ createServer({
 
 ```json
 [
-	{ "id": 1, "name": "张三" },
+  { "id": 1, "name": "张三" },
   { "id": 2, "name": "李四" }
 ]
 ```

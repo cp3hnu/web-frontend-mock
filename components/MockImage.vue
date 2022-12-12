@@ -1,9 +1,9 @@
 <template>
-  <div class="container" @click="() => (isShowAll = !isShowAll)">
+  <div class="container">
     <img src="/1.png" width="800" class="mock-image" />
     <div>
       <div class="red-frame"></div>
-      <template v-if="isShowAll">
+      <div v-click>
         <div
           v-for="i in 8"
           class="red-frame"
@@ -13,7 +13,7 @@
             width: computeWidth(i) + 'px'
           }"
         ></div>
-      </template>
+      </div>
     </div>
   </div>
 </template>
