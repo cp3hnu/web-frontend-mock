@@ -16,6 +16,8 @@ info: |
 # persist drawings in exports and build
 drawings:
   persist: false
+# download
+download: true
 # use UnoCSS
 css: unocss
 ---
